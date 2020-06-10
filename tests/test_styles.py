@@ -80,9 +80,8 @@ class Tests:
         hover_text_color = elem.value_of_css_property('color')
         hover_bg_color = elem.value_of_css_property('background-color')
         # check for non-default-font
-        assert default_bg_color != hover_bg_color
-        assert default_text_color != hover_text_color
-
+        assert (default_bg_color != hover_bg_color) or (default_text_color != hover_text_color)
+        
   def test_section_padding_styles(self, driver, settings):
     """
     Check that sections have padding on all sides.

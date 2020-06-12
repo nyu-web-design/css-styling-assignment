@@ -1,6 +1,6 @@
-# A Web Site About Me
+# A Stylish Web Site About Me
 
-Welcome! In this assignment, you will add CSS styles to your existing web site.
+Welcome! In this assignment, you will add CSS styles to your existing web site about you.
 
 The updated HTML and CSS files must be published to the web by uploading them to your web root directory on the web server.
 
